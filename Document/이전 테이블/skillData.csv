@@ -1,0 +1,12 @@
+idx,skillname,skilldamage,skill_description,Consumption_value,delay
+1,explosion,30,Create explosion in front,50,1.5
+2,leafsniping,30,Shoot a sharp leaf,40,1.2
+3,waterball,30,Drop a waterball from above,50,1.2
+4,jewelblade,30,Slash with purple blade,45,1.3
+5,zero,100,Powerful finishing blow,100,2.0
+6,treethorn,30,Pierce forward with a thorn,40,1.2
+7,windblade,15,Strike forward 3 times,45,1.4
+8,icemeteor,30,Drop ice meteor from sky,60,1.5
+9,blackhole,30,Pull enemies with gravity,50,1.5
+10,fireshot,30,Shoot fast fireball,40,1.2
+11,sandstorm,30,Push forward with sandstorm,50,1.5

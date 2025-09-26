@@ -1,0 +1,4 @@
+ID,Name,Type,Description,Objectives
+int,eQUESTTYPE,string,string,string
+70001,MAINQUEST,마을의 위기,마을이 괴물에게 공격받고 있습니다. 주민을 도와주세요.,주민 3명 구조
+70002,SUBQUEST,숲의 비밀,숲 깊숙한 곳에서 정체불명의 소리가 들립니다. 조사하세요.,숲 조사

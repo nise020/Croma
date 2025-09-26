@@ -1,0 +1,33 @@
+Id,Type,Loop,Volume,Pitch,Priority,MinDistance,MaxDistance,Name,Path
+10001,2,0,20,100,1,3,10,WooshSlash,Sound/Effect/WooshSlash
+10002,2,0,20,100,1,3,10,Slash,Sound/Effect/Slash
+10003,2,0,20,100,1,3,10,,
+10004,2,0,20,100,1,3,10,,
+10005,2,0,20,100,1,3,30,Burst,Sound/Effect/Burst
+10011,2,0,20,100,1,3,30,SmollPunch,Sound/Effect/SmollPunch
+10012,2,0,20,100,1,3,30,BigPunch,Sound/Effect/BigPunch
+10013,2,0,20,100,1,3,10,,
+10014,2,0,20,100,1,3,10,,
+10021,2,1,20,100,1,3,10,Walk,Sound/Walk/LoopWalking
+10022,2,1,20,100,1,3,10,Walk,Sound/Walk/footsteps-in-the-forest-ground
+10023,2,1,20,100,1,3,60,Walk,Sound/Walk/crunchy-road-fast-walking
+10024,2,1,20,100,1,5,60,SmollWalk,Sound/Walk/LoopWalking
+10025,2,1,20,100,1,5,60,BigWalk,Sound/Walk/HeavyWalking
+10031,2,0,20,100,1,3,30,Explotion,Sound/Effect/explosion
+10032,2,0,20,100,1,3,30,fuelExplosion,Sound/Effect/fuelExplosion
+20001,1,0,50,100,1,3,10,Title,Sound/BGM/mysterious-dark-background
+20002,1,0,50,100,1,3,10,Stage1,Sound/BGM/Turning Slowly
+20003,1,0,50,100,1,3,10,Stage2,Sound/BGM/Turning Slowly
+20004,1,0,50,100,1,3,10,Stage3,Sound/BGM/Turning Slowly
+20005,1,0,50,100,1,3,10,Stage4,Sound/BGM/Turning Slowly
+20006,1,0,50,100,1,3,10,Ranking,Sound/BGM/Turning Slowly
+20011,3,0,50,100,1,3,10,Button1,Sound/Button/select-click-1109
+20012,3,0,50,100,0,0,0,Button2,Sound/Button/StatPoint
+20013,3,0,50,100,0,0,0,Button3,Sound/Butten/sci-fi-click-900
+20014,3,0,0,0,0,0,0,Button4,Sound/Button/metal-button-radio-ping-2544
+20015,3,0,50,100,0,0,0,Button5,Sound/Button/ButtonClick
+20051,3,0,50,100,0,0,0,Boss,Sound/BGM/fright-night-871
+20016,4,0,50,100,0,0,0,QuestClear,Sound/SFX/QuestClear
+20017,4,0,50,100,0,0,0,StageClear,Sound/SFX/StageClear
+20018,4,0,50,100,0,0,0,StageFailed,Sound/SFX/StageFailed
+20019,4,0,50,100,0,0,0,PlayerBuff,Sound/SFX/PlayerBuff

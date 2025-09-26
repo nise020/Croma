@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Variant Collection
+  m_Shaders:
+  - first: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SOFTPARTICLES_ON
+        passType: 0
+  - first: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: EFFECT_BUMP FOG_EXP INSTANCING_ON SOFTPARTICLES_ON _ALPHABLEND_ON
+          _COLORADDSUBDIFF_ON _EMISSION _FADING_ON _NORMALMAP _REQUIRE_UV2
+        passType: 0
+      - keywords: FOG_EXP SPOT
+        passType: 1
+      - keywords: FOG_EXP
+        passType: 2
+      - keywords: INSTANCING_ON SHADOWS_CUBE
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_CUBE _ALPHABLEND_ON _REQUIRE_UV2
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH _ALPHABLEND_ON _REQUIRE_UV2
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _REQUIRE_UV2
+        passType: 13
+  - first: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    second:
+      variants:
+      - keywords: DEBUG_DISPLAY DOTS_INSTANCING_ON FOG_EXP INSTANCING_ON PROBE_VOLUMES_L1
+          _ALPHAMODULATE_ON _ALPHATEST_ON _COLORADDSUBDIFF_ON _DISTORTION_ON _EMISSION
+          _FADING_ON _FLIPBOOKBLENDING_ON _NORMALMAP _SCREEN_SPACE_OCCLUSION _SOFTPARTICLES_ON
+          _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: DOTS_INSTANCING_ON STEREO_INSTANCING_ON
+        passType: 0
+      - keywords: STEREO_INSTANCING_ON
+        passType: 0
+      - keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON _COLORADDSUBDIFF_ON
+          _FLIPBOOKBLENDING_ON
+        passType: 13
+      - keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON _COLORADDSUBDIFF_ON
+          _GBUFFER_NORMALS_OCT _NORMALMAP
+        passType: 13
+  - first: {fileID: 4800000, guid: 313fcf3aebc04cf4ab4f8c5f2850be7f, type: 3}
+    second:
+      variants:
+      - keywords: DOTS_INSTANCING_ON INSTANCING_ON LOD_FADE_CROSSFADE _ALPHATEST_ON
+        passType: 8
+      - keywords: DOTS_INSTANCING_ON INSTANCING_ON LOD_FADE_CROSSFADE _ALPHATEST_ON
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON
+        passType: 8
+      - keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: DOTS_INSTANCING_ON INSTANCING_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE _ALPHATEST_ON
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE _ALPHATEST_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE _ALPHATEST_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: FOG_EXP INSTANCING_ON _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE
+          _SHADOWS_SOFT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 00191177e5fd5c4468ad546ce87ef329, type: 3}
+    second:
+      variants:
+      - keywords: FOG_EXP INSTANCING_ON _ALPHAMODULATE_ON _ALPHAPREMULTIPLY_ON _ALPHATEST_ON
+          _SCREEN_SPACE_OCCLUSION _SURFACE_TYPE_TRANSPARENT _WRITE_RENDERING_LAYERS
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 1c658274f9a314546be62e32eea23521, type: 3}
+    second:
+      variants: []
+  - first: {fileID: 4800000, guid: 2ba3ea62053e4584fb5f829f88027c3a, type: 3}
+    second:
+      variants: []
+  - first: {fileID: -6465566751694194690, guid: 94156f61f72b54f408d7f9bfb9547503, type: 3}
+    second:
+      variants: []

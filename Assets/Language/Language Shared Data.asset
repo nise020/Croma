@@ -1,0 +1,398 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Language Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Language
+  m_TableCollectionNameGuidString: 1206e021f9095884783cc77a17c60f4b
+  m_Entries:
+  - m_Id: 5548064768
+    m_Key: TitleScene_Button_Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45360398336
+    m_Key: TitleScene_Button_Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90109427712
+    m_Key: TitleScene_Button_Option
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163471998976
+    m_Key: TitleScene_Button_Credit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204446154752
+    m_Key: TitleScene_Button_Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7317461450752
+    m_Key: KeyDsc_Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7346662195200
+    m_Key: KeyDsc_Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7395848798208
+    m_Key: KeyDsc_LoadDefault
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7481949470720
+    m_Key: KeyDsc_Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7510730784768
+    m_Key: KeyDsc_Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 616818401132544
+    m_Key: Option_gameData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 616885547745280
+    m_Key: Option_keyData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 617001725771776
+    m_Key: Option_mouseData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 617058101411840
+    m_Key: Option_graphicData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 617126267240448
+    m_Key: Option_videoData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 617188489740288
+    m_Key: Option_soundData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041655904911360
+    m_Key: AntiAliasing_Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041659251965952
+    m_Key: Background_Detail_Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041659809808384
+    m_Key: Enable_Bloom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041660300541952
+    m_Key: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041660761915392
+    m_Key: Enable_Shadows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041661193928704
+    m_Key: Gamma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041661613359104
+    m_Key: Lighting_Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041662032789504
+    m_Key: Enable_PostProcessing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041662515134464
+    m_Key: Shadow_Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041662959730688
+    m_Key: Texture_Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041663416909824
+    m_Key: Enable_UI_Blur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041663874088960
+    m_Key: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041664331268096
+    m_Key: Key_Attack1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041664784252928
+    m_Key: Key_Attack2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041665199489024
+    m_Key: Key_Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041665677639680
+    m_Key: Key_Interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041666172567552
+    m_Key: Key_Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041666600386560
+    m_Key: Key_Move_Down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041667074342912
+    m_Key: Key_Move_Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041667988701184
+    m_Key: Key_Move_Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041668441686016
+    m_Key: Key_Sprint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041668928225280
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041669393793024
+    m_Key: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041669813223424
+    m_Key: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041670257819648
+    m_Key: Enable_Mouse_Acceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041670769524736
+    m_Key: Invert_Mouse_X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041671243481088
+    m_Key: Invert_Mouse_Y
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041671713243136
+    m_Key: Mouse_Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041672166227968
+    m_Key: Mouse_Smoothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041672648572928
+    m_Key: True
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041673130917888
+    m_Key: False
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041673533571072
+    m_Key: Aspect_Ratio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041673990750208
+    m_Key: Volume_BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041674494066688
+    m_Key: Display_Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042555738308608
+    m_Key: Frame_Limit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042559093751808
+    m_Key: Volume_Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042560964411392
+    m_Key: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042562784739328
+    m_Key: Volume_SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042565276155904
+    m_Key: Sound_Channel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042567041957888
+    m_Key: Volume_UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042567696269312
+    m_Key: Korean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042568598044672
+    m_Key: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042568979726336
+    m_Key: Ultra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042569428516864
+    m_Key: Stereo 2.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042569915056128
+    m_Key: Stereo 2.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042570363846656
+    m_Key: Surround 5.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042845476634624
+    m_Key: Surround 7.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042846063837184
+    m_Key: Virtual 7.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042896882024448
+    m_Key: Headphone virtual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042898203230208
+    m_Key: Mono
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042936480448512
+    m_Key: ExclusiveFullScreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042937126371328
+    m_Key: FullScreenWindow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042938304970752
+    m_Key: MaximizedWindow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1043005678075904
+    m_Key: OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1043029740797952
+    m_Key: ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1043059855900672
+    m_Key: 4:3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1043061093220352
+    m_Key: 16:9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1043063605608448
+    m_Key: 16:10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1043093741682688
+    m_Key: 21:9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1043094337273856
+    m_Key: 32:9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1043870736498688
+    m_Key: Mouse_Acceleration_Factor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3247023980593152
+    m_Key: Show_FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9342441651994624
+    m_Key: Inventory_Equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9342500540022784
+    m_Key: Inventory_Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9342767272591360
+    m_Key: Inventory_Archive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9342810587168768
+    m_Key: Inventory_Quest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9343970106703872
+    m_Key: Equipment_Item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9345217111031808
+    m_Key: Quest_MainQuest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9345219690528768
+    m_Key: Quest_SubQuest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9346089794699264
+    m_Key: KeyDsc_Equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9346092177063936
+    m_Key: KeyDsc_DetailedMap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9346093951254528
+    m_Key: GamePause_Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773181312438272
+    m_Key: GamePause_Option
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773184638521344
+    m_Key: GamePause_Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10911315664199680
+    m_Key: KeyDsc_Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14437435723251712
+    m_Key: 'KeyDsc_Select
+
+'
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8431893654978953481
+  references:
+    version: 2
+    RefIds:
+    - rid: 8431893654978953481
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1748511201951

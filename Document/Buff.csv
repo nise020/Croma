@@ -1,0 +1,8 @@
+Id,Type,Value,Time,EffectPath,Icon,SoundID
+1001,1,10,10,Prefab/Effect/Buff/AtkBuff_Effect,Attack_Buff,20019
+1002,2,10,10,Prefab/Effect/Buff/SpdBuff_Effect,Speed_Buff,20019
+1003,3,10,10,Prefab/Effect/Buff/HealBuff_Effect,Heal_Buff,20019
+2001,4,5,20,Prefab/Effect/Buff/AtkBuff_Effect,,0
+2002,5,5,3,Prefab/Effect/Buff/StatusAilment_01_Aura,,0
+2003,6,5,5,Prefab/Effect/Buff/Debuff_03_Aura,,0
+2004,7,10,60,Prefab/Effect/Buff/Buff_02a,,0

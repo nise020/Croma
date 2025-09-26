@@ -1,0 +1,100 @@
+Id,Ko,En
+101,이 게임은 주어진 퀘스트를 클리어하거나 몬스터를 토벌하여 포인트를 획득하여 랭킹에 등록하는 게임입니다. 맵 밖으로 나가면 떨어져 죽을 수 있다는 점에 유의하세요,"This game is to register in the rankings by earning points by clearing the given quest or catching monsters. Please note that if you go out of the map, you will fall down and die"
+102,,
+103,,
+104,,
+105,,
+106,,
+107,,
+111,카메라 회전값,Camera Rotation
+112,배경음,Bgm Sound
+113,효과음,Effect Sound
+114,언어 선택,Language
+151,새 게임,New Game
+152,랭킹,Ranking
+153,설정,Option
+154,게임 나가기,Game Quit
+201,공격력 증가 포션,Attack Potion(B)
+202,공격력 버프를 획득한다,Attack Buff
+203,이동속도 증가 포션,Speed Potion(B)
+204,이동속도 증가 버프를 획득한다,Speed Buff
+205,자동회복 버프 포션,Heal Potion(B)
+206,자동으로 체력을 회복하는 버프를 획득한다,Heal Buff
+207,체력회복 포션(소),Heal Potion(S)
+208,전체체력의 30%를 회복한다,Heals 30% Health.
+209,체력회복 포션(중),Heal Potion(M)
+210,전체체력의 40%를 회복한다,Heals 40% Health.
+211,체력회복 포션(대),Heal Potion(L)
+212,전체체력의 50%를 회복한다,Heals 50% Health.
+301,캐릭터를 움직이는 조작키 입니다.,Use these keys to move your character.
+302,전방으로 대쉬하는 키 입니다. 공격용으로도 사용할 수 있습니다,"Dash forward. If you collide with a monster during dash, it takes damage."
+303,스킬을 사용하는 조작키 입니다.,Left Click – Perform a normal attack.\n Q – Activate Skill 1.\n E – Activate Skill 2.
+304,필살기 키 입니다. 에너지가 전부 채워지면 사용할 수 있습니다.,Use your Ultimate skill. (Can only be used when energy is full)
+305,Alt 키를 누르고 있으면 마우스 커서가 활성화 됩니다.,Alt + Left Click (Hold) – Unlock the mouse. (The mouse is always active while UI is open)
+306,해당 숫자키를 입력하시면 각각 슬롯에 담겨 있는 아이템을 사용할 수 있습니다.,Use the item registered in each quick slot.
+307,해당키를 입력 하시면 해당되는 메뉴를 활성화 합니다.,Open the Menu UI.
+308,,
+309,몬스터 토벌 I (반복),Monster Hunt I (R)
+310,곰인형 30마리를 토벌 하세요. (반복퀘스트),Hunt down 30 Bear monsters. (Repeatable Quest)
+311,피해 없이 클리어 I,Untouchable I
+312,한 대도 맞지 않고 스테이지1을 클리어하세요.,Clear Stage1 without taking any damage
+313,포션 없이 클리어 I,Potionless I
+314,포션을 사용하지 않고 스테이지1을 클리어하세요.,Clear Stage1 without using any potions
+315,몬스터 토벌 II (반복),Monster Hunt II (R)
+316,드론을 30마리 토벌하세요. (반복 퀘스트),Hunt down 30 RustDrone monsters. (Repeatable Quest)
+317,피해 없이 클리어 II,Untouchable II
+318,한 대도 맞지 않고 스테이지2를 클리어하세요.,Clear Stage2 without taking any damage
+319,포션 없이 클리어 II,Potionless II
+320,포션을 사용하지 않고 스테이지2를 클리어하세요.,Clear Stage2 without using any potions
+321,몬스터 토벌 III (반복),Monster Hunt III (R)
+322,루프를 30마리 토벌하세요. (반복 퀘스트),Hunt down 30 Loop monsters. (Repeatable Quest)
+323,피해 없이 클리어 III,Untouchable III
+324,한 대도 맞지 않고 스테이지3을 클리어하세요.,Clear Stage3 without taking any damage
+325,포션 없이 클리어 III,Potionless III
+326,포션을 사용하지 않고 스테이지3을 클리어하세요.,Clear Stage3 without using any potions
+327,몬스터 토벌 IV (반복),Monter Hunt IV (R)
+328,코드를 30마리 토벌하세요. (반복 퀘스트),Hunt down 30 Code monsters. (Repeatable Quest)
+329,피해 없이 클리어 IV,Untouchable IV
+330,한 대도 맞지 않고 스테이지4를 클리어하세요,Clear Stage4 without taking any damage
+331,포션 없이 클리어 IV,Potionless IV
+332,포션을 사용하지 않고 스테이지4를 클리어하세요.,Clear Stage4 without using any potions
+501,일반공격1,NomalAttack_1
+502,전방을 향해 공격을 한다,"""Unleashes a powerful strike forward."""
+503,일반공격2,NomalAttack_2
+504,설명,"""Unleashes a powerful strike forward."""
+505,일반공격3,Normal_Attack3
+506,설명,"""Unleashes a powerful strike forward and then gains an Attack Power buff."""
+507,일반공격4,Normal_Attack4
+508,설명,"""Unleashes a powerful strike forward and then gains an Attack Power buff."""
+509,돌진 공격1,Dash1
+510,설명,"""Charges forward and striking all enemies in the path."""
+511,돌진 공격2,Dash2
+512,설명,"""Charges forward and striking all enemies in the path."""
+513,돌진 공격3,Dash3
+514,설명,"""Charges forward and striking all enemies in the path and then gains a Movement Speed buff."""
+515,돌진 공격4,Dash4
+516,설명,"""Charges forward and striking all enemies in the path and then gains a Movement Speed buff."""
+517,범위공격1,Area1
+518,설명,"""Deals 2 damage to all nearby enemies around the user."""
+519,범위공격2,Area2
+520,설명,"""Deals 3 damage to all nearby enemies around the user."""
+521,범위공격3,Area3
+522,설명,"""Deals 3 damage to all nearby enemies around the user."""
+523,범위공격4,Area4
+524,설명,"""Deals 4 damage to all nearby enemies around the user."""
+525,자동공격1,Auto1
+526,설명,Creates two slashes that each strike enemies within a certain range three times. After the skill ends the user gains an Attack Power buff for a short duration.
+527,자동공격2,Auto2
+528,설명,Creates two slashes that each strike enemies within a certain range three times. After the skill ends the user gains an Attack Power buff for a short duration.
+529,자동공격3,Auto3
+530,설명,Creates three slashes that each strike enemies within a certain range three times. After the skill ends the user gains an Attack Power buff for a short duration.
+531,자동공격4,Auto4
+532,설명,Creates three slashes that each strike enemies within a certain range three times. After the skill ends the user gains an Attack Power buff for a short duration.
+533,필살기1,Burst_1
+534,설명,They attack the surrounding enemies in a circle around the user
+535,필살기2,Burst_2
+536,설명,Hit the enemy around the user with a powerful attack of four times
+537,필살기3,Burst_3
+538,설명,Hit a huge sword at the user's location and attack the surrounding enemy
+539,필살기4,Burst_4
+540,설명,3 consecutive attacks based on the front of the user

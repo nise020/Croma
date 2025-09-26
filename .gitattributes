@@ -1,0 +1,2 @@
+Assets/Resources/Font/**/*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Resources/Font/TMP/*.asset filter=lfs diff=lfs merge=lfs -text

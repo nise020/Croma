@@ -1,0 +1,6 @@
+Volume_Master,Volume_Bgm,Volume_Sfx,Volume_UI,Sound_Channel
+byte,byte,byte,byte,OPTION_DATA_VALUES_SOUND_CHANNEL
+100,100,100,100,6
+100,100,100,100,6
+0,0,0,0,0
+100,100,100,100,6

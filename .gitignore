@@ -1,0 +1,35 @@
+# Unity-specific files to ignore
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Aa]ssets/[Ss]cenes/[Ll]ightingData.asset
+[Aa]ssets/[Ss]cenes/[Ll]ightingData.asset.meta
+[Pp]ackages/[Pp]ackage[Mm]anifest.json.meta
+[Pp]ackages/[Pp]ackage[Rr]esolution.json.meta
+
+# Visual Studio / Rider / IDE specific files to ignore
+.vs/
+.idea/
+*.suo
+*.sln.DotSettings
+*.user
+*.pdb
+
+# Other common files to ignore
+[Tt]humbs.db
+.DS_Store
+*.csproj
+*.unityproj
+*.unity
+*.unitypackage
+*.meta
+*.booproj
+
+# Temporary files created by Unity
+*.tmp
+
+# Custom rule to ignore FBX files
+*.fbx

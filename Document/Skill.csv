@@ -1,0 +1,31 @@
+Id,Type,Value,ValueMax,Time,BuffId,Range,HitCount,SkillCountMax,Icon,Prefab,Name,Dec,SalePoint,SoundId
+1,1,100,130,0,0,3,1,1,Normal_Attack1,Prefab/Effect/Skill/Slash_A,501,502,0,10001
+2,1,120,150,0,0,3,1,1,Normal_Attack2,Prefab/Effect/Skill/Slash_B,503,504,1,10001
+3,1,140,170,0,0,3,2,1,Normal_Attack3,Prefab/Effect/Skill/Slash_B_recolor_1 Variant,505,506,2,10001
+4,1,160,180,0,0,3,2,1,Normal_Attack4,Prefab/Effect/Skill/Slash_D,507,508,2,10001
+11,1,100,130,3,0,1,1,1,Dash1,Prefab/Effect/Skill/Prick 4,509,510,0,10001
+12,1,120,150,3,0,1,1,1,Dash2,Prefab/Effect/Skill/Prick 4,511,512,1,10001
+13,1,140,170,3,1002,1,1,1,Dash3,Prefab/Effect/Skill/Prick 5,513,514,2,10001
+14,1,160,180,3,1002,1,1,1,Dash4,Prefab/Effect/Skill/Prick 5,515,516,2,10001
+21,3,100,130,10,0,3,2,1,Area1,Prefab/Effect/Skill/Slash_Aoe_A,517,518,2,10001
+22,3,120,150,10,0,4,3,1,Area2,Prefab/Effect/Skill/Slash_Aoe_A_recolor_1 Variant,519,520,4,10001
+23,3,140,170,15,0,3,3,1,Area3,Prefab/Effect/Skill/Sword Slash Combo 7,521,522,8,10001
+24,3,160,180,15,0,3,4,1,Area4,Prefab/Effect/Skill/Sword Slash Combo 6,523,524,12,10001
+31,3,100,130,20,1001,4,3,2,JumpSkill1,Prefab/Effect/Skill/Sword Slash 2,525,526,2,10001
+32,3,120,150,20,1001,4,3,2,JumpSkill2,Prefab/Effect/Skill/Sword Slash 7,527,528,4,10001
+33,3,140,170,30,1001,4,4,3,JumpSkill3,Prefab/Effect/Skill/Sword Slash Combo 1,529,530,8,10001
+34,3,160,180,30,1001,4,4,3,JumpSkill4,Prefab/Effect/Skill/Sword Slash Combo 1,531,532,12,10001
+41,3,100,130,30,1001,2,1,1,Special1,Prefab/Effect/Skill/Sword Slash 13,533,534,3,10001
+42,3,120,150,30,1001,4,1,1,Special2,Prefab/Effect/Skill/Spatial section,535,536,6,10001
+43,3,140,170,40,1001,2,1,1,Special3,Prefab/Effect/Skill/Sword Slash 16,537,538,9,10001
+44,3,160,180,40,1001,3,1,1,Special4,Prefab/Effect/Skill/Sword Slash Combo 8,539,540,12,10001
+200001,2,100,130,5,0,2,1,1,0,Prefab/Effect/Skill/Prick 4,0,0,0,10011
+200002,2,120,150,5,0,2,1,1,0,Prefab/Effect/Skill/Prick 5,0,0,0,10011
+200003,1,140,170,5,0,2,1,1,0,Prefab/Effect/Skill/Prick 1,0,0,0,10011
+200004,3,160,180,5,0,2,1,1,0,Prefab/Effect/Skill/Spikes attack,0,0,0,10011
+200005,1,180,200,5,0,2,1,1,0,Prefab/Effect/Skill/Prick 4,0,0,0,10011
+200006,1,200,220,5,0,2,1,1,0,Prefab/Effect/Skill/Prick 5,0,0,0,10011
+300001,5,100,130,20,2002,3,1,1,0,Prefab/Effect/Skill/Prick 4,0,0,0,10012
+300002,5,120,150,20,2002,3,1,1,0,Prefab/Effect/Skill/Prick 4,0,0,0,10012
+300003,7,140,170,20,2003,3,1,1,0,Prefab/Effect/Skill/Prick 4,0,0,0,10012
+300004,5,160,180,20,2003,3,1,1,0,Prefab/Effect/Skill/Prick 4,0,0,0,10012

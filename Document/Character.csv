@@ -1,0 +1,10 @@
+Id,Type,StatId,BookId,FOVLength,AttackLength,Icon,Prefab,Name,Dec,Exp,Score,WalkSoundId,AttackSoundId,DeathEffectId
+100001,1,100001,100001,10,1,0,Prefab\Character\Player\Player,Player,0,0,0,10023,10001,0
+200001,2,200001,200001,10,2,0,Prefab\Character\Monster\Bear,Bear,0,100,100,10024,10011,1
+200002,2,200002,200002,10,2,0,Prefab\Character\Monster\RustDrone,RustDrone,0,1,120,10024,10011,1
+200003,2,200003,200003,10,3,0,Prefab\Character\Monster\Loop,Loop,0,1,140,10024,10011,1
+200004,2,200004,200004,10,3,0,Prefab\Character\Monster\Code,Code,0,1,160,10024,10011,1
+300001,3,300001,300001,30,2,0,Prefab\Character\Monster\Bear_Boss,BearBoss,0,100,1500,10025,10012,2
+300002,3,300002,300002,30,2,0,Prefab\Character\Monster\RustDrone_Boss,RustDroneBoss,0,100,1700,10025,10012,2
+300003,3,300003,300003,30,2,0,Prefab\Character\Monster\Loop_Boss,LoopBoss,0,100,1900,10025,10012,2
+300004,3,300004,300004,30,2,0,Prefab\Character\Monster\Code_Boss,CodeBoss,0,100,2100,10025,10012,2

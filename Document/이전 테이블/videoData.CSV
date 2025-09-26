@@ -1,0 +1,6 @@
+Resolution,Aspect_Ratio,Frame_Limit,Display_Mode,Gamma,Brightness
+string,OPTION_DATA_VALUES_ASPECTRATIO,ushort,OPTION_DATA_VALUES_DISPLAY_MODE,byte,byte
+1920x1080,0,0,1,50,50
+1920x1080,0,0,1,50,50
+,0,0,0,0,0
+,3,1000,2,100,100

@@ -1,0 +1,6 @@
+Mouse_Sensitivity,Enable_Mouse_Acceleration,Mouse_Acceleration_Factor,Invert_Mouse_X,Invert_Mouse_Y,Mouse_Smoothing
+float,bool,float,bool,bool,bool
+1,TRUE,1,FALSE,FALSE,FALSE
+1,TRUE,1,FALSE,FALSE,FALSE
+0,,0,,,
+1,,1,,,

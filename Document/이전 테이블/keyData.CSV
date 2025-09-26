@@ -1,0 +1,4 @@
+Key_Move_Left,Key_Move_Right,Key_Move_Down,Key_Jump,Key_Attack1,Key_Interact,Key_Dash,Key_Steal,Key_Slot,Key_Inven
+KeyCode,KeyCode,KeyCode,KeyCode,KeyCode,KeyCode,KeyCode,KeyCode,KeyCode,KeyCode
+97,100,115,119,323,101,32,102,114,105
+97,100,115,119,323,101,32,102,114,105

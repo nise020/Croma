@@ -1,0 +1,6 @@
+Enable_Shadows,Shadow_Resolution,Lighting_Quality,Enable_PostProcessing,Enable_Bloom,Enable_UI_Blur,AntiAliasing_Mode,Texture_Quality,Background_Detail_Level
+bool,OPTION_DATA_VALUES_QUALITY,OPTION_DATA_VALUES_QUALITY,bool,bool,bool,OPTION_DATA_VALUES_ANTI_ALIASING_MODE,OPTION_DATA_VALUES_QUALITY,OPTION_DATA_VALUES_QUALITY
+TRUE,0,0,TRUE,TRUE,TRUE,0,0,0
+TRUE,0,0,TRUE,TRUE,TRUE,0,0,0
+,0,0,,,,0,0,0
+,3,3,,,,3,3,3

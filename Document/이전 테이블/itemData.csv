@@ -1,0 +1,4 @@
+ID,itemName,itemDesc,itemType,equipType,power,iconPath
+12001,불의 검,불 속성의 강력한 검입니다.,EQUIP,WEAPON,15,Texture/ItemTest/Weapon
+12002,얼음의 검,차가운 기운을 품은 마검입니다.,EQUIP,WEAPON,15,Texture/ItemTest/Weapon2
+12003,마력 귀걸이,마력을 증폭시키는 귀걸이입니다.,EQUIP,EARRING,15,Texture/ItemTest/Weapon
