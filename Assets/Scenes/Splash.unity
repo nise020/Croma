@@ -377,7 +377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 786376006470557737, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 960
+=======
+      value: 960.00006
+>>>>>>> d06c6e25adf37d6800d9762dd8f81ef48cec0cc3
       objectReference: {fileID: 0}
     - target: {fileID: 786376006470557737, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -531,10 +535,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3609230961022794554, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_Name
       value: LoginButtonObj
       objectReference: {fileID: 0}
+=======
+>>>>>>> d06c6e25adf37d6800d9762dd8f81ef48cec0cc3
     - target: {fileID: 3910800240648027564, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -581,7 +588,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4384354254394027851, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 960
+=======
+      value: 960.00006
+>>>>>>> d06c6e25adf37d6800d9762dd8f81ef48cec0cc3
       objectReference: {fileID: 0}
     - target: {fileID: 4384354254394027851, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -605,7 +616,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5225941601288958739, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 960
+=======
+      value: 960.00006
+>>>>>>> d06c6e25adf37d6800d9762dd8f81ef48cec0cc3
       objectReference: {fileID: 0}
     - target: {fileID: 5225941601288958739, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -661,7 +676,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6643827949696373848, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 960
+=======
+      value: 960.00006
+>>>>>>> d06c6e25adf37d6800d9762dd8f81ef48cec0cc3
       objectReference: {fileID: 0}
     - target: {fileID: 6643827949696373848, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -705,7 +724,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7132732831735666189, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 960
+=======
+      value: 960.00006
+>>>>>>> d06c6e25adf37d6800d9762dd8f81ef48cec0cc3
       objectReference: {fileID: 0}
     - target: {fileID: 7132732831735666189, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -731,10 +754,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 8748740506928184630, guid: 720adff9c6a945d45a54f3546e64ef63, type: 3}
       propertyPath: m_Name
       value: LoginButton (Legacy)
       objectReference: {fileID: 0}
+=======
+>>>>>>> d06c6e25adf37d6800d9762dd8f81ef48cec0cc3
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
