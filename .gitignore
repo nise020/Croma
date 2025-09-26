@@ -34,5 +34,3 @@
 # Custom rule to ignore FBX files
 *.fbx
 
-# 민감한 API 키 파일은 Git 추적에서 제외
-secrets.json
