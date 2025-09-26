@@ -23,7 +23,6 @@
 .DS_Store
 *.csproj
 *.unityproj
-*.unity
 *.unitypackage
 *.meta
 *.booproj
