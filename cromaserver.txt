@@ -1,0 +1,36 @@
+-http-
+http://58.78.211.182:3000/
+
+-login-
+packet = "process/login"
+
+=메세지에 따라 기능 구현=
+
+not id = id를 안보낼시
+not id or not pw - id, pw 안보낼시
+failure id = db id 없음
+failure password = pw가 다름
+login sucess = 성공
+
+-logincreate-
+packet = "process/logincreate"
+
+failure id = id가 없어야 생성
+
+-게임종료시 저장 이름(오락실 - 랭킹시 id:name 표시
+)
+-namecrate-
+packet = "process/namecreate";
+
+
+-login-
+post
+from = id, pw 
+
+-logincreate-
+post
+from = id, pw 
+
+-namecreate
+post
+from = id, name
