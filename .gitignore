@@ -23,9 +23,7 @@
 .DS_Store
 *.csproj
 *.unityproj
-*.unity
 *.unitypackage
-*.meta
 *.booproj
 
 # Temporary files created by Unity
