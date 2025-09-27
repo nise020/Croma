@@ -15,18 +15,18 @@ public class ItemAcqst : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        Shared.Instance.LanguageManager.LanguageChangeEvent += TaxtChange;
+        Shared.Instance.LanguageManager.LanguageChangeEvent += UpdateText;
     }
 
     public void Init(ItemBase item, int count)
     {
         itemBase = item;
-        TaxtChange();
-        itemIcon.sprite = item.icon;
         itemCount = count;
+        itemIcon.sprite = item.icon;
+        UpdateText();
     }
 
-    public void TaxtChange()
+    public void UpdateText()
     {
         if (acqstText == null) return;
 

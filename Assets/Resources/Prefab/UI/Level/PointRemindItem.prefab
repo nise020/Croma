@@ -274,7 +274,7 @@ MonoBehaviour:
   skillIcon: {fileID: 21300000, guid: 948f5a84dbbd15748bfff377b7cdefae, type: 3}
   statIcon: {fileID: 21300000, guid: b58f7491f06d4744592a58c0d0ab9f7a, type: 3}
   reminderEnabled: 1
-  reminderInterval: 60
+  reminderInterval: 10
   useUnscaledTime: 1
 --- !u!95 &6075473201187814317
 Animator:

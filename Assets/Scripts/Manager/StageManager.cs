@@ -61,7 +61,7 @@ public class StageManager : MonoBehaviour
 
     public bool CanUseConsumables() => !IsIntermission && isPlayerAlive;
 
-    [SerializeField, ReadOnly] private float stagePlayTime = 120f; // 스테이지당 시간
+    [SerializeField, ReadOnly] private float stagePlayTime = 30f; // 스테이지당 시간
     private float remainStage;
     public Action<float> OnSurviveTimeUpdate;
     public Action<float> OnStageRemainTimeUpdate;
@@ -125,6 +125,20 @@ public class StageManager : MonoBehaviour
             onDone?.Invoke();
             return;
         }
+
+        if (stageTimerCo != null)
+        {
+            StopCoroutine(stageTimerCo);
+            stageTimerCo = null;
+        }
+
+        SetIntermission(true);
+
+        remainStage = 0f;
+        currentSurvivalTime = 0f;
+        OnStageRemainTimeUpdate?.Invoke(0f);
+        OnSurviveTimeUpdate?.Invoke(0f);
+        OnBossRemainTimeUpdate?.Invoke(0);
 
         currentStage = stage;
         bossSpawned = false;
@@ -401,15 +415,30 @@ public class StageManager : MonoBehaviour
             if (clearTab != null)
             {
                 clearTab.ShowClearTab(
-                    currentStage, beforeLevel, afterLevel,
-                    beforeScore, afterScore,
-                    () => { if (isLastStage) FinishRun(); else GoNextStage(); },
-                    toTitle: isLastStage,
+                    currentStage, 
+                    beforeLevel, 
+                    afterLevel,
+                    beforeScore, 
+                    afterScore,
+
+                    onNextPressed: () =>
+                    {
+                        GoNextStage();
+                    },
+                    onGoTitle: () =>
+                    {
+                        FinishRun();
+                    },
                     acquired: acquired,
-                    totalKills: rec.totalKills
+                    totalKills: rec.totalKills,
+                    lastStage: isLastStage
                 );
             }
-            else { if (isLastStage) FinishRun(); else GoNextStage(); }
+            else 
+            { 
+                if (isLastStage) FinishRun(); 
+                else GoNextStage(); 
+            }
         }
         else // Failed
         {
@@ -424,7 +453,6 @@ public class StageManager : MonoBehaviour
         }
     }
     #endregion
-
 
     #region ClearTab Info
 

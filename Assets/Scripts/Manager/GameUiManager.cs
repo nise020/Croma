@@ -121,14 +121,14 @@ namespace Game.InGame
             // Popup Canvas
             GameObject areaNameGo       = Instantiate(areaNameObj, PopupCanvas.transform);            
             GameObject bossStateGo      = Instantiate(bossStateObj, PopupCanvas.transform);
-            GameObject reminderTabGo    = Instantiate(reminderTabObj, PopupCanvas.transform);
-            GameObject clearTabGo       = Instantiate(clearTabObj, PopupCanvas.transform);
+            GameObject reminderTabGo    = Instantiate(reminderTabObj, PopupCanvas.transform);            
             GameObject failedTabGo      = Instantiate(failedTabObj, PopupCanvas.transform);
             GameObject itemAcqstGo      = Instantiate(itemAcqstTabObj, PopupCanvas.transform);
 
 
             // Menu Canvas
             GameObject menuGo           = Instantiate(menuUiObj, MenuCanvas.transform);
+            GameObject clearTabGo       = Instantiate(clearTabObj, MenuCanvas.transform);
             DimmerImage                 = Instantiate(dimmerImageObj, MenuCanvas.transform);
 
 

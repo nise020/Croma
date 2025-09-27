@@ -19,6 +19,7 @@ public class ClearTab : MonoBehaviour
     [SerializeField] private TextMeshProUGUI killText;
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private Button nextStageBtn;
+    [SerializeField] private Button titleBtn;
     [SerializeField] private Animator animator;
 
     [Header("Aquired Item / Kill UI")]
@@ -27,6 +28,7 @@ public class ClearTab : MonoBehaviour
 
 
     private Action onNext;
+    private Action onTitle;
     private bool clicked;
     private bool isPaused;
 
@@ -40,7 +42,7 @@ public class ClearTab : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void ShowClearTab(STAGE stage, int startLevel, int endLevel, int beforeScore, int clearScore, Action onNextPressed, List<ItemEntry> acquired = null,int totalKills = 0, bool toTitle = false)
+    public void ShowClearTab(STAGE stage, int startLevel, int endLevel, int beforeScore, int clearScore, Action onNextPressed, Action onGoTitle, List<ItemEntry> acquired = null,int totalKills = 0, bool lastStage = false)
     {
         if (Shared.Instance.SoundManager)
             Shared.Instance.SoundManager.PlaySFXOneShot(clearSoundID);
@@ -49,33 +51,64 @@ public class ClearTab : MonoBehaviour
 
         gameObject.SetActive(true);
         nextStageBtn.interactable = false;
+        
 
-
-        stageText.text = toTitle ? "All Clear!" : $"{stage} Clear!"; ;
+        stageText.text = lastStage ? "All Clear!" : $"{stage} Clear!"; ;
         levelText.text = $"Level : Lv. {startLevel}  ¡æ  Lv. {endLevel}";
         killText.text = $"Kills : {totalKills}";
         scoreText.text = $"Score : {beforeScore}  ->  {clearScore}";
 
-        onNext = onNextPressed;
-
-        var btnLavel = nextStageBtn.GetComponentInChildren<TextMeshProUGUI>(true);
-        if (btnLavel)
-            btnLavel.text = toTitle ? "Title" : "Next Stage";
-
-        if (nextStageBtn != null)
+        if (lastStage)
         {
-            nextStageBtn.onClick.RemoveAllListeners();
+            titleBtn.gameObject.SetActive(false);
+        }
+
+        onNext = onNextPressed;
+        onTitle = onGoTitle;
+
+
+        var nextLabel = nextStageBtn.GetComponentInChildren<TextMeshProUGUI>(true);
+        var titleLabel = titleBtn.GetComponentInChildren<TextMeshProUGUI>(true);
+        if (nextLabel) nextLabel.text = "Next Stage";
+        if (titleLabel) titleLabel.text = "Title";
+
+        if (lastStage)
+        {
+            titleBtn.gameObject.SetActive(true);
+            nextStageBtn.gameObject.SetActive(false);
+
+            titleBtn.onClick.AddListener(() =>
+            {
+                if (clicked) return;
+                clicked = true;
+                Hide();
+                this.onTitle?.Invoke();
+            });
+        }
+
+        else
+        {
+            titleBtn.gameObject.SetActive(true);
+            nextStageBtn.gameObject.SetActive(true);
+
+            titleBtn.onClick.AddListener(() =>
+            {
+                if (clicked) return;
+                clicked = true;
+                Hide();
+                this.onTitle?.Invoke();
+            });
+
             nextStageBtn.onClick.AddListener(() =>
             {
                 if (clicked) return;
-
                 clicked = true;
                 Hide();
-                onNext?.Invoke();
+                this.onNext?.Invoke();
             });
-
-            if (EventSystem.current) EventSystem.current.SetSelectedGameObject(null);
         }
+
+        if (EventSystem.current) EventSystem.current.SetSelectedGameObject(null);
 
         BuildAcquired(acquired);    
         SetPasued(true);
@@ -85,7 +118,6 @@ public class ClearTab : MonoBehaviour
     {
         gameObject.SetActive(false);
         SetPasued(false);
-
     }
 
     private string FormatMMSS(float seconds)

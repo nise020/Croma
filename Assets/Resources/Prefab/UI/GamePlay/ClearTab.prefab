@@ -538,7 +538,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 100, y: 100}
+  m_CellSize: {x: 145, y: 145}
   m_Spacing: {x: 30, y: 18.7}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -1461,6 +1461,7 @@ MonoBehaviour:
   killText: {fileID: 8285559898828716624}
   scoreText: {fileID: 1364179900824251719}
   nextStageBtn: {fileID: 252420929106092921}
+  titleBtn: {fileID: 6617954636144465464}
   animator: {fileID: 0}
   itemRoot: {fileID: 3662421339126806002}
   slot: {fileID: 5901293697109797432, guid: 272b19d868c2fdd4691072402312569e, type: 3}
@@ -1792,3 +1793,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1915609977924616039, guid: 98df176efcb0a5a4f834e3e4f6e022a2, type: 3}
   m_PrefabInstance: {fileID: 5665591703815761608}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6617954636144465464 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1546857891676092656, guid: 98df176efcb0a5a4f834e3e4f6e022a2, type: 3}
+  m_PrefabInstance: {fileID: 5665591703815761608}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

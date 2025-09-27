@@ -125,7 +125,7 @@ public class SkillTab : MonoBehaviour
         if (R != null)
         {
             R.UpdateSkill(HasUnspent(), skillPointValue);
-        }       
+        }     
     }
 
     public SkillKeyType Skillkey(int _value) 

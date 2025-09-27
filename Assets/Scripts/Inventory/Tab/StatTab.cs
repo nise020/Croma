@@ -128,45 +128,42 @@ public class StatTab : MonoBehaviour
 
         PLAYER.StatDataUpdate(BuildFinalStatsFromCommitted());
         RefreshUI();
-
+        R?.UpdateStat(HasUnspent(), statPoint);
     }
 
     private void RefreshUI()
     {
-        if (MaxHp_Point) MaxHp_Point.text = committedPoints[CHARACTER_STATUS.MaxHp].ToString();
-        if (Atk_Point) Atk_Point.text = committedPoints[CHARACTER_STATUS.Atk].ToString();
-        if (Def_Point) Def_Point.text = committedPoints[CHARACTER_STATUS.Def].ToString();
-        if (Spd_Point) Spd_Point.text = committedPoints[CHARACTER_STATUS.Speed].ToString();
+        if (MaxHp_Point) MaxHp_Point.text   = committedPoints[CHARACTER_STATUS.MaxHp].ToString();
+        if (Atk_Point) Atk_Point.text       = committedPoints[CHARACTER_STATUS.Atk].ToString();
+        if (Def_Point) Def_Point.text       = committedPoints[CHARACTER_STATUS.Def].ToString();
+        if (Spd_Point) Spd_Point.text       = committedPoints[CHARACTER_STATUS.Speed].ToString();
 
         if (PointTxt) PointTxt.text = statPoint.ToString();
 
-        if (PLAYER != null)
+        if (levelTable != null && levelTable.TryGetValue(levelId, out var baseInfo))
         {
-            if (PlayerHP) PlayerHP.text = PLAYER.StatusTypeLoad(CHARACTER_STATUS.MaxHp).ToString();
-            if (PlayerAtk) PlayerAtk.text = PLAYER.StatusTypeLoad(CHARACTER_STATUS.Atk).ToString();
-            if (PlayerDef) PlayerDef.text = PLAYER.StatusTypeLoad(CHARACTER_STATUS.Def).ToString();
-            if (PlayerSpd) PlayerSpd.text = PLAYER.StatusTypeLoad(CHARACTER_STATUS.Speed).ToString();
+            if (PlayerHP) PlayerHP.text     = FormatWithCommitted(baseInfo.MaxHp, GetCommitted(CHARACTER_STATUS.MaxHp));
+            if (PlayerAtk) PlayerAtk.text   = FormatWithCommitted(baseInfo.Atk, GetCommitted(CHARACTER_STATUS.Atk));
+            if (PlayerDef) PlayerDef.text   = FormatWithCommitted(baseInfo.Def, GetCommitted(CHARACTER_STATUS.Def));
+            if (PlayerSpd) PlayerSpd.text   = FormatWithCommitted(baseInfo.Speed, GetCommitted(CHARACTER_STATUS.Speed));
         }
     }
 
     public void StatPlus(CHARACTER_STATUS type, int value)
     {
-        if (value <= 0) return;           // – 금지
-        if (statPoint <= 0) return;       // 남은 포인트 없으면 무시
+        if (value <= 0) return;     
+        if (statPoint <= 0) return;  
 
-        committedPoints[type] += value;   // 즉시 누적
+        committedPoints[type] += value;  
         statPoint -= value;
 
-        // 플레이어 스탯 즉시 업데이트 & UI
         PLAYER.StatDataUpdate(BuildFinalStatsFromCommitted());
         RefreshUI();
 
-        // 리마인더 갱신
         R?.UpdateStat(HasUnspent(), statPoint);
     }
 
 
-    // 저장 누적만 반영한 최종 스탯 계산
     private LevelTable.Info BuildFinalStatsFromCommitted()
     {
         var info = levelTable[levelId];
@@ -197,9 +194,21 @@ public class StatTab : MonoBehaviour
         Debug.LogWarning($"[StatTab] No row for Id/Level = {idOrLevel}");
         return null;
     }
-
-    public bool BeforeLeave(Action continueAction)
+    
+    private int GetCommitted(CHARACTER_STATUS type)
     {
-        return true;
+        int raw = committedPoints.TryGetValue(type, out var v) ? v : 0;
+        return (type == CHARACTER_STATUS.MaxHp) ? raw * MAXHP_POINT_WEIGHT : raw;
     }
+
+    private string FormatWithCommitted(int baseValue, int committedPoint)
+    {
+        int total = baseValue + committedPoint;
+
+        if (committedPoint <= 0)
+            return total.ToString();
+
+        return $"{total} <size=70%><color=#FF0000>( + {committedPoint})</color></size>";       
+    }
+
 }

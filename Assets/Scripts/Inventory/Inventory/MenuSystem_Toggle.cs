@@ -15,38 +15,21 @@ public partial class MenuSystem : MonoBehaviour
 
     public void ToggelAdd()
     {
+        if (panels == null || toggles == null || panels.Length != toggles.Length)
+            Debug.LogWarning("[MenuSystem] panels/toggles 개수가 다릅니다.");
+
         for (int i = 0; i < toggles.Length; i++)
         {
             int index = i;
-
-            //toggles[index].onValueChanged.AddListener((isOn) =>
-            toggles[index].onValueChanged.AddListener((isOn) =>
+            toggles[index].onValueChanged.AddListener(isOn =>
             {
-                if (isOn)
-                {
-                    PlayUI(toggleSoundID);
+                if (!isOn) return;
 
-                    if (statTab != null && currentSubUI == statTab.gameObject && panels[index] != statTab.gameObject)
-                    {
-                        bool canLeave = statTab.BeforeLeave(() =>
-                        {
-                            toggles[index].SetIsOnWithoutNotify(true);
-                            toggles[lastTabIndex].SetIsOnWithoutNotify(false);
-                            ShowOnlyPanel(index);
-                        });
-
-                        if (!canLeave)
-                        {
-                            toggles[lastTabIndex].SetIsOnWithoutNotify(true);
-                            toggles[index].SetIsOnWithoutNotify(false);
-                            return;
-                        }
-                    }
-
-                    ShowOnlyPanel(index);
-                }
+                PlayUI(toggleSoundID);
+                ShowOnlyPanel(index);
             });
         }
+
         ToggleTab.SetActive(false);
     }
 

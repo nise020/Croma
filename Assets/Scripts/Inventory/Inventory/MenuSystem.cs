@@ -372,16 +372,6 @@ public partial class MenuSystem : MonoBehaviour
             UiActive(true);
             return;
         }
-
-        if (statTab != null && currentSubUI == statTab.gameObject)
-        {
-            bool canClose = statTab.BeforeLeave(() =>
-            {
-                CloseInventoryImmediate();
-            });
-            if (!canClose) return; 
-        }
-
         CloseInventoryImmediate();
     }
 
@@ -460,15 +450,6 @@ public partial class MenuSystem : MonoBehaviour
     public void CloseInventory()
     {
         if (!ToggleTab || !ToggleTab.activeSelf) return;
-
-        if (statTab != null && currentSubUI == statTab.gameObject)
-        {
-            bool canClose = statTab.BeforeLeave(() =>
-            {
-                CloseInventoryImmediate();
-            });
-            if (!canClose) return;
-        }
 
         CloseInventoryImmediate();
     }

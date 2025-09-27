@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: QuestName
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8b707f16e83075f4fabb282b205b05bd, type: 2}
-  m_sharedMaterial: {fileID: 659492623730818300, guid: 8b707f16e83075f4fabb282b205b05bd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7585888cbc9d3eb42912ee55b01426ea, type: 2}
+  m_sharedMaterial: {fileID: -599475799861263759, guid: 7585888cbc9d3eb42912ee55b01426ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -294,8 +294,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0 / 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fc603ab0882d56b438ad2869d25fc282, type: 2}
-  m_sharedMaterial: {fileID: 659492623730818300, guid: fc603ab0882d56b438ad2869d25fc282, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7585888cbc9d3eb42912ee55b01426ea, type: 2}
+  m_sharedMaterial: {fileID: -599475799861263759, guid: 7585888cbc9d3eb42912ee55b01426ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

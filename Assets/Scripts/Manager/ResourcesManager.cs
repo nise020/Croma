@@ -101,20 +101,20 @@ public class ResourcesManager : MonoBehaviour
         FollowCamPrefab = Resources.Load<GameObject>(FollowCamPath);
 
 
-        MenuObj = Resources.Load<GameObject>("Prefab/UI/Menu/Menu_UI");
-        QuestHUD = Resources.Load<GameObject>(hudPath);
-        AreaName = Resources.Load<GameObject>(areaPath);
-        PlayerStatePrefab = Resources.Load<GameObject>(PlayerStateUiPath);
-        BossStatePrefab = Resources.Load<GameObject>(BossStateUiPath);
-        FadePrefab = Resources.Load<GameObject>(FadePath);
-        PointRemindPrefab = Resources.Load<GameObject>(PointRemindPath);
-        ClearTabPrefab = Resources.Load<GameObject>(ClearTabPath);
-        FailedTabPrefab = Resources.Load<GameObject>(FailedTabPath);
-        ItemAcqstTabPrefab = Resources.Load<GameObject>(ItemAcqstPath);
-        GameInfoPrefab = Resources.Load<GameObject>(GameInfoPath);
-        QuickSlotPrefab = Resources.Load<GameObject>(QuickSlotPath);
-        DimmerImagePrefab = Resources.Load<GameObject>(DimmerImagePath);
-        FadeCanvasPrefab = Resources.Load<GameObject>(FadeCanvasPath);
+        MenuObj             = Resources.Load<GameObject>("Prefab/UI/Menu/Menu_UI");
+        QuestHUD            = Resources.Load<GameObject>(hudPath);
+        AreaName            = Resources.Load<GameObject>(areaPath);
+        PlayerStatePrefab   = Resources.Load<GameObject>(PlayerStateUiPath);
+        BossStatePrefab     = Resources.Load<GameObject>(BossStateUiPath);
+        FadePrefab          = Resources.Load<GameObject>(FadePath);
+        PointRemindPrefab   = Resources.Load<GameObject>(PointRemindPath);
+        ClearTabPrefab      = Resources.Load<GameObject>(ClearTabPath);
+        FailedTabPrefab     = Resources.Load<GameObject>(FailedTabPath);
+        ItemAcqstTabPrefab  = Resources.Load<GameObject>(ItemAcqstPath);
+        GameInfoPrefab      = Resources.Load<GameObject>(GameInfoPath);
+        QuickSlotPrefab     = Resources.Load<GameObject>(QuickSlotPath);
+        DimmerImagePrefab   = Resources.Load<GameObject>(DimmerImagePath);
+        FadeCanvasPrefab    = Resources.Load<GameObject>(FadeCanvasPath);
 
         SpownEffect = Resources.Load<GameObject>("Prefab/Effect/Buff/Debuff_03");
         await UniTask.Yield(); 

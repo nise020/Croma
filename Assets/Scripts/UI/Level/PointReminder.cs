@@ -21,7 +21,7 @@ public class PointReminder : MonoBehaviour
 
     [Header("Reminder")]
     [SerializeField] private bool reminderEnabled = true;
-    [SerializeField] private float reminderInterval = 20f;
+    [SerializeField] private float reminderInterval = 5f;
     [SerializeField] private bool useUnscaledTime = true;
 
     private Coroutine remindCo;
